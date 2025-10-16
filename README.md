@@ -46,7 +46,7 @@ To create a standalone executable:
 
 2. Build the executable:
    ```bash
-   pyinstaller --add-data "THIRD_PARTY_LICENSES.txt:." --add-data "LICENSE:." --onefile --windowed main.py
+   uv run pyinstaller --add-data "THIRD_PARTY_LICENSES.txt:." --add-data "LICENSE:." --onefile --windowed main.py
    ```
 
 The executable will be created in the `dist/` directory.
