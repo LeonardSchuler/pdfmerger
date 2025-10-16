@@ -65,7 +65,12 @@ class PDFMergerApp:
         self.listbox.delete(0, tk.END)
 
 
-if __name__ == "__main__":
+def main():
+    """Entry point for the PDF merger application."""
     root = tk.Tk()
     app = PDFMergerApp(root)
     root.mainloop()
+
+
+if __name__ == "__main__":
+    main()

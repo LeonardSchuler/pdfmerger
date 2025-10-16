@@ -1,12 +1,15 @@
 [project]
 name = "pdfmerger"
 version = "0.1.0"
-description = "Add your description here"
+description = "A simple PDF merger application with GUI"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "pypdf>=6.0.0",
 ]
+
+[project.scripts]
+pdfmerger = "main:main"
 
 [dependency-groups]
 install = [
